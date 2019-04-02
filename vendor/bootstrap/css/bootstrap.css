@@ -4610,11 +4610,18 @@ background-color:black!important;
 
 }
 
-.card:hover {
- background-color:red;
- color:white;
+.youtubecard-body
+{
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+
+
 
 }
+
+
+
+
 
 
 .card:hover .btn-primary {
@@ -4696,9 +4703,9 @@ background-color:black!important;
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
+  
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 6px solid #f23e1a;
 }
 
 .card-footer:last-child {

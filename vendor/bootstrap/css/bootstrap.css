@@ -4605,35 +4605,15 @@ background-color:black!important;
   background-color: white;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  color:#9d9d9d;
+  color:#a5a5a5;
 
 
 }
 
-.youtubecard {
- position: relative;
-  display: -ms-flexbox;
-  display: inline-block;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: white;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  color:#fffff;
 
-
-
-
-
-
-
-}
 .card:hover{
 
 background-color:#f23e1a;
-color:white;
 
 
 }
@@ -4642,6 +4622,8 @@ color:white;
 {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+
+
 
 }
 

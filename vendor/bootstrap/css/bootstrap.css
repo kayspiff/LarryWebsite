@@ -621,7 +621,6 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
   padding-left: 15px;
 }
 
@@ -4615,6 +4614,10 @@ background-color:black!important;
 
 }
 
+.youtubecard-body{
+  padding-right: 10px;
+}
+
 
 .card:hover{
 
@@ -4628,6 +4631,7 @@ color:#ffffff;
 {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  
 
 
 
@@ -4769,10 +4773,12 @@ color:#ffffff;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
+
 }
 
 .card-deck .card {
   margin-bottom: 15px;
+
 }
 
 @media (min-width: 576px) {
@@ -4925,6 +4931,8 @@ color:#ffffff;
   list-style: none;
   background-color: #e9ecef;
   border-radius: 0.25rem;
+  margin:0;
+  padding-top: 10px; 
 }
 
 .breadcrumb-item + .breadcrumb-item {

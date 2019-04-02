@@ -229,7 +229,7 @@ label {
 }
 
 button {
-  border-radius: 0;
+ 
 }
 
 button:focus {
@@ -2398,7 +2398,7 @@ textarea.form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2984,7 +2984,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+ 
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -4605,8 +4605,8 @@ background-color:black!important;
   background-color: white;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
   color:#a5a5a5;
+
 
 }
 
@@ -6190,6 +6190,14 @@ Proxima Nova Light.otf
   }
 }
 
+.carousel-control-prev {
+  margin-left: -120px;
+}
+
+.carousel-control-next {
+  margin-right: -120px;
+}
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -6286,15 +6294,25 @@ Proxima Nova Light.otf
   height: 20px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
+  background-image:none; 
 }
 
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
 }
 
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
 }
+
+
 
 .carousel-indicators {
   position: absolute;
@@ -6310,7 +6328,7 @@ Proxima Nova Light.otf
   margin-right: 15%;
   margin-left: 15%;
   list-style: none;
-  display:none;
+
 }
 
 .carousel-indicators li {

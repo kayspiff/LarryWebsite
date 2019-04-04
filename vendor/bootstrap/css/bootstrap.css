@@ -490,9 +490,9 @@ mark,
 .footerlinks > a
 {
   list-style-type: none;
-  padding-right: 40px;
   display: inline-block;
   color:gray!important;
+  padding-right: 5px; 
 
 
 }
@@ -1901,15 +1901,27 @@ pre code {
     border: 0;
   }
 
+  .speaktext
+  {
+    font-size: 19px!important;
+    font-weight: bold;
+  }
+
+
+.footercaption
+{
+  font-size: 30px!important; 
+}
+
 
 .footerlinks 
 {
   list-style-type: none;
   display: block;
 
-
-
 }
+
+
 
     .searchbar
 {

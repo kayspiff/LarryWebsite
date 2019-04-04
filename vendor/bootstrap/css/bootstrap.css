@@ -487,6 +487,14 @@ mark,
 
 }
 
+.footerlinks 
+{
+  list-style-type: none;
+  display: block;
+  padding-right: 40px;
+
+}
+
 .searchbar
 {
       position:absolute;
@@ -10116,7 +10124,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 
   /*CAROLUSEL MOBILE*/ 
-  
+
 
 
 }

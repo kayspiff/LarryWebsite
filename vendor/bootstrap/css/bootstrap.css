@@ -1889,10 +1889,25 @@ pre code {
     z-index:9999999;
    /* change to whatever you want */
     color:white;
-    left:30%;
-    top:70%;
+    left:15%;
+    top:80%;
     font-size:14px;
     padding: 10px;
+}
+
+h3
+{
+  font-size:20px;
+}
+
+.categorylinks
+{
+  display: inline-block;
+}
+
+.p
+{
+  font-size: 20px;
 }
 
 .navbar-toggler {
@@ -4741,6 +4756,7 @@ color:#ffffff;
  
  background-color:white!important;
  border-style: none; 
+ border:none;
  color:#f23e1a!important; 
 
 
@@ -4748,8 +4764,9 @@ color:#ffffff;
 
 .card .btn-primary {
  
- background-color:red!important;
+ background-color:#f23e1a!important;
  border-style: none; 
+ border:none;
  color:white!important; 
 
 

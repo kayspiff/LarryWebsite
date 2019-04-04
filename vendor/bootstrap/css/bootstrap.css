@@ -232,6 +232,10 @@ button {
  
 }
 
+button:hover{
+  color:white;
+}
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -483,6 +487,16 @@ mark,
 
 }
 
+.searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:90%;
+}
+
 img 
 {
   width: 100%; 
@@ -565,24 +579,66 @@ pre code {
   .container {
     max-width: 540px;
   }
+
+
+.searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:90%;
+}
+
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+
+  .searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:50%;
+}
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+
+  .searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:90%;
+}
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
+
+  .searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:90%;
+}
 }
 
 .container-fluid {
@@ -831,6 +887,17 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+  .searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:90%;
+}
+
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1804,7 +1871,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px) { /*IPHONE*/ 
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1815,6 +1882,30 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+
+    .searchbar
+{
+      position:absolute;
+    z-index:9999999;
+   /* change to whatever you want */
+    color:white;
+    left:30%;
+    top:70%;
+    font-size:14px;
+    padding: 10px;
+}
+
+.navbar-toggler {
+
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  margin-right:20px;
+}
+
+
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -2437,12 +2528,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  
+
 }
 
 .btn-primary:hover {
- 
+ color:white;
 }
 
 
@@ -6772,6 +6863,10 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+  
+
+
+
   .d-md-none {
     display: none !important;
   }
@@ -6804,6 +6899,8 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  
+
   .d-lg-none {
     display: none !important;
   }

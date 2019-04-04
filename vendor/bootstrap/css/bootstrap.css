@@ -155,7 +155,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  
   text-decoration: none;
   background-color: transparent;
 }
@@ -487,11 +487,21 @@ mark,
 
 }
 
+.footerlinks > a
+{
+  list-style-type: none;
+  padding-right: 40px;
+  display: inline-block;
+  color:gray!important;
+
+
+}
+
 .footerlinks 
 {
   list-style-type: none;
-  display: block;
-  padding-right: 40px;
+  display: inline-block;
+  
 
 }
 
@@ -1890,6 +1900,16 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+
+
+.footerlinks 
+{
+  list-style-type: none;
+  display: block;
+
+
+
+}
 
     .searchbar
 {

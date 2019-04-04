@@ -4199,7 +4199,7 @@ background-color:black!important;
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+
 }
 
 .navbar > .container,
@@ -4214,9 +4214,10 @@ background-color:black!important;
   justify-content: space-between;
 }
 
+
+
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -4241,6 +4242,8 @@ background-color:black!important;
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  float:right;
+  margin-right: 100px; 
 }
 
 .navbar-nav .dropdown-menu {
@@ -4264,12 +4267,11 @@ background-color:black!important;
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
+
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  margin-right:100px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4531,7 +4533,7 @@ background-color:black!important;
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+ 
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -4579,7 +4581,7 @@ background-color:black!important;
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+ 
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -6564,7 +6566,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #e9ecef !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

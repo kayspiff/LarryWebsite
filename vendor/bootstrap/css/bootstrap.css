@@ -605,7 +605,7 @@ pre code {
    /* change to whatever you want */
     color:white;
     left:30%;
-    top:50%;
+    top:91%;
 }
 }
 
@@ -621,7 +621,7 @@ pre code {
    /* change to whatever you want */
     color:white;
     left:30%;
-    top:90%;
+    top:91%;
 }
 }
 
@@ -886,7 +886,7 @@ pre code {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) { /*COMP*/ 
 
   .searchbar
 {
@@ -895,7 +895,7 @@ pre code {
    /* change to whatever you want */
     color:white;
     left:30%;
-    top:90%;
+    top:91%;
 }
 
   .col-sm {
@@ -2534,6 +2534,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
  color:white;
+ border:none; 
 }
 
 
@@ -3083,10 +3084,11 @@ fieldset:disabled a.btn {
 }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+padding-left: 40px;
+padding-right: 40px; 
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+ 
 }
 
 .btn-block {
@@ -4739,7 +4741,7 @@ color:#ffffff;
  
  background-color:white!important;
  border-style: none; 
- color:red!important; 
+ color:#f23e1a!important; 
 
 
 }
